@@ -5,7 +5,7 @@ using UnityEditor;
 
 public class PrefabFactory : EditorWindow {
 
-        [MenuItem("'YourProjectNameHere'/Create Prefab From Selected")]
+        [MenuItem("Prefab Factory/Create Prefab From Selected")]
         static void CreatePrefab()
         {
             GameObject[] objs = Selection.gameObjects;
